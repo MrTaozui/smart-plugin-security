@@ -15,8 +15,8 @@
         <filter-name>ShiroFilter</filter-name>
         <filter-class>org.apache.shiro.web.servlet.ShiroFilter</filter-class>
     </filter>
-    <filter-mapping>
+    <filter-mapping>  
         <filter-name>ShiroFilter</filter-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>/*</url-pattern>  <!-- 拦截所有的请求 -->
     </filter-mapping>
 </web-app>
