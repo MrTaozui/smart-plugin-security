@@ -34,7 +34,8 @@ public final class ReflectionUtil {
     public static Object newInstance(String className){
         Object instance;
         try {
-        	Class cls=Class.forName(className);
+        	Class cls=Class.forName(className);//调用者的类加载器   谁加载这个类Class 就是使用哪个类加载器
+            // 是sun.misc.Launcher$AppClassLoader 应用类加载器
             instance=cls.newInstance();
         } catch (Exception e) {
             LOGGER.error("new instance failure",e);

@@ -16,7 +16,7 @@ public interface SecurityConstant {
 	String JDBC_PERMISSIONS_QUERY="smart.plugin.security.jdbc.permissions_query";
 	
 	String CACHE="smart.plugin.security.cache";
-	String CACHEABLE="smart.plugin.security.cacheable";
+	String CACHEABLE="true";
 	
 	String CONFIG_FILE="";
 	

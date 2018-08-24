@@ -12,6 +12,11 @@
   
      <packaging>jar</packaging>
 <dependencies>
+    <dependency>
+        <groupId>org.smart4j</groupId>
+        <artifactId>chapter3</artifactId>
+        <version>1.0.0</version>
+    </dependency>
     <!-- Servlet -->
     <dependency>
         <groupId>javax.servlet</groupId>

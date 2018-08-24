@@ -31,4 +31,5 @@ public final class SecurityConfig {
 	public static boolean isCacheable(){
 		return ConfigHelper.getBoolean(SecurityConstant.CACHEABLE);
 	}
+
 }
