@@ -18,7 +18,7 @@ public interface SecurityConstant {
 	String CACHE="smart.plugin.security.cache";
 	String CACHEABLE="true";
 	
-	String CONFIG_FILE="";
+	String CONFIG_FILE="smart.properties";
 	
 
 }
